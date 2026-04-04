@@ -1,3 +1,33 @@
+# Comparison of Data Science Agents
+
+Benchmarking and comparing AI-powered data science agents (Claude Code,
+GPT-4o, DS-STAR, AutoGen) on real-world data science tasks including EDA,
+feature engineering, model selection, and report generation.
+
+## Research Question
+How do current data science agents compare on domain-specific tasks across
+accuracy, cost, latency, and code quality? Where do autonomous agents fail
+vs human-AI collaboration?
+
+## Agents Under Study
+- Claude Code (Anthropic) - agentic coding CLI
+- GPT-4o with Code Interpreter (OpenAI)
+- DS-STAR (Google Research) - multi-agent data science framework
+- AutoGen (Microsoft) - multi-agent conversation framework
+
+## Evaluation Dimensions
+- Task completion accuracy
+- Code quality and readability
+- Cost per task (API tokens)
+- Time to completion
+- Failure modes and recovery
+
+## References
+- AgentDS Competition (arxiv.org/abs/2603.19005)
+- DS-STAR (Google Research, 2025)
+- MLE-bench (Chan et al., 2025)
+- CLEAR Framework (arxiv.org/abs/2511.14136)
+
 # Summary
 This directory contains a Docker-based development environment template with:
 
