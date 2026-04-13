@@ -28,7 +28,7 @@ run "docker image ls $FULL_IMAGE_NAME"
 # - Port forwarding for Jupyter and PostgreSQL services
 # - Git root mounted to /git_root inside container
 CONTAINER_NAME=${IMAGE_NAME}_bash
-PORT=
+PORT=8888
 DOCKER_CMD=$(get_docker_bash_command)
 DOCKER_RUN_OPTS="-p 5432:5432"
 DOCKER_CMD_OPTS=$(get_docker_bash_options $CONTAINER_NAME $PORT "$DOCKER_RUN_OPTS")

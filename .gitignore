@@ -72,3 +72,7 @@ tensorboard/
 .env
 .env.*
 tutorials/tutorial_llamaindex/data/gutenberg/
+
+
+CLAUDE.md
+
